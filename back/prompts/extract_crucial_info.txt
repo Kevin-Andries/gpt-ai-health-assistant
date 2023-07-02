@@ -1,0 +1,11 @@
+I want you to extract relevant information about the patient's health from the text I will give you.
+For example:
+Text: "Last night, I went to a party and didn't sleep well after that. I drank a lot of alcohol. I think I shouldn't have. Now I have a headache."
+Expected output: "The patient didn't sleep well last night. They drank a lot of alcohol. Now they have a headache.".
+Another example:
+Text: "Today I felt weak. I think this is because of my diet and the fact that I didn't eat enough carbs."
+Expected output: "The patient felt weak today because they probably didn't eat enough carbs."
+If you think no relevant information can be extracted from the text, answer with 'no data'.
+All units use the metric system.
+Here is the text: {{MESSAGE}}
+Extract the relevant information.

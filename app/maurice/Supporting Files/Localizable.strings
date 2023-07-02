@@ -1,0 +1,39 @@
+//
+// This source file is part of the Stanford HealthGPT project
+//
+// SPDX-FileCopyrightText: 2023 Stanford University & Project Contributors
+//
+
+
+// MARK: - Onboarding
+// MARK: Welcome
+"WELCOME_TITLE" = "Maurice";
+"WELCOME_SUBTITLE" = "Maurice is your personnal AI nutritionist. It will change the way you handle your diet.";
+
+"WELCOME_AREA1_TITLE" = "He remembers your info";
+"WELCOME_AREA1_DESCRIPTION" = "Maurice cares about you. And his AI memomy will remeber anything important you want him to remember about you";
+
+"WELCOME_AREA2_TITLE" = "He gives you personnalized advice";
+"WELCOME_AREA2_DESCRIPTION" = "Maurice gives you advice and recommendations 100% tailored to your needs";
+
+"WELCOME_AREA3_TITLE" = "In your pocket, 24/7";
+"WELCOME_AREA3_DESCRIPTION" = "Maurice will always be here for you. Helping you is his only reason to live.";
+
+"WELCOME_BUTTON" = "Continue";
+
+
+// MARK: Disclaimer
+"INTERESTING_MODULES_TITLE" = "Disclaimer";
+"INTERESTING_MODULES_SUBTITLE" = "Maurice is an application that allows you to interact with a virtual AI nutritionist.\n All the answers are AI generated.";
+
+"INTERESTING_MODULES_AREA1_TITLE" = "Warning";
+"INTERESTING_MODULES_AREA1_DESCRIPTION" = "Maurice is provided for general informational purposes only and is not intended as a substitute for professional medical advice, diagnosis, or treatment.";
+
+"INTERESTING_MODULES_AREA2_TITLE" = "Warning";
+"INTERESTING_MODULES_AREA2_DESCRIPTION" = "AI can sometimes give wrong information. The use of Maurice is at your own risk. Always consult a qualified healthcare provider for personalized advice regarding your health and well-being.";
+"INTERESTING_MODULES_BUTTON" = "I Agree";
+
+
+// MARK: HealthKit
+"HEALTHKIT_PERMISSIONS_DESCRIPTION" = "Supported data include sleep, step count, active energy, exercise minutes, heart rate, and body mass. \nWe do not store these data on our servers.";
+"HEALTHKIT_PERMISSIONS_BUTTON" = "Grant Access";

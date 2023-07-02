@@ -1,0 +1,1102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2719BC7829F0A31500995C31 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719BC7729F0A31500995C31 /* SettingsView.swift */; };
+		2719BC7A29F0A57D00995C31 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719BC7929F0A57D00995C31 /* ChatView.swift */; };
+		2719BC7C29F0A59800995C31 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719BC7B29F0A59800995C31 /* MessageView.swift */; };
+		2719BC8029F0A5DD00995C31 /* UIApplication+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719BC7F29F0A5DD00995C31 /* UIApplication+Keyboard.swift */; };
+		2719BC8729F1548900995C31 /* CardinalKitLocalStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 2719BC8629F1548900995C31 /* CardinalKitLocalStorage */; };
+		2719BC8929F1548900995C31 /* CardinalKitSecureStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 2719BC8829F1548900995C31 /* CardinalKitSecureStorage */; };
+		2737200C29EEBE4300024843 /* CardinalKitHealthKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2737200B29EEBE4300024843 /* CardinalKitHealthKit */; };
+		2737201529EEC16400024843 /* CardinalKitOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = 2737201429EEC16400024843 /* CardinalKitOnboarding */; };
+		275DEFCE29EEC5AD0079D453 /* StorageKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275DEFCD29EEC5AD0079D453 /* StorageKeys.swift */; };
+		275DEFD029EEC5D20079D453 /* FeatureFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275DEFCF29EEC5D20079D453 /* FeatureFlags.swift */; };
+		275DEFD529EEC6870079D453 /* HealthKitPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275DEFD429EEC6870079D453 /* HealthKitPermissions.swift */; };
+		275DEFD729EEC6A60079D453 /* Disclaimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275DEFD629EEC6A60079D453 /* Disclaimer.swift */; };
+		275DEFD929EEC6B80079D453 /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275DEFD829EEC6B80079D453 /* OnboardingFlow.swift */; };
+		275DEFDB29EEC6CA0079D453 /* String+ModuleLocalized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275DEFDA29EEC6CA0079D453 /* String+ModuleLocalized.swift */; };
+		275DEFDD29EEC6DC0079D453 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275DEFDC29EEC6DC0079D453 /* Welcome.swift */; };
+		275DEFF229EECA030079D453 /* Binding+Negate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275DEFF129EECA030079D453 /* Binding+Negate.swift */; };
+		275DEFF429EECA180079D453 /* CodableArray+RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275DEFF329EECA170079D453 /* CodableArray+RawRepresentable.swift */; };
+		27715ECD29F27FF500254A7D /* XCTestApp in Frameworks */ = {isa = PBXBuildFile; productRef = 27715ECC29F27FF500254A7D /* XCTestApp */; };
+		27715ECF29F27FF500254A7D /* XCTestExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 27715ECE29F27FF500254A7D /* XCTestExtensions */; };
+		27715ED229F2801000254A7D /* XCTRuntimeAssertions in Frameworks */ = {isa = PBXBuildFile; productRef = 27715ED129F2801000254A7D /* XCTRuntimeAssertions */; };
+		27715ED529F2802500254A7D /* XCTHealthKit in Frameworks */ = {isa = PBXBuildFile; productRef = 27715ED429F2802500254A7D /* XCTHealthKit */; };
+		27BA6BE429EF9A910079DC17 /* OpenAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27BA6BE329EF9A910079DC17 /* OpenAI-Info.plist */; };
+		2F49B7762980407C00BCB272 /* CardinalKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2F49B7752980407B00BCB272 /* CardinalKit */; };
+		2F4E21D829F0518B0067EE98 /* MauriceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4E21D729F0518B0067EE98 /* MauriceUITests.swift */; };
+		2F4E23832989D51F0013F3D9 /* TemplateAppTestingSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4E23822989D51F0013F3D9 /* TemplateAppTestingSetup.swift */; };
+		2F5E32BD297E05EA003432F8 /* TemplateAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5E32BC297E05EA003432F8 /* TemplateAppDelegate.swift */; };
+		2FC9759F2978E39600BA99FE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FC9759E2978E39600BA99FE /* Localizable.strings */; };
+		2FC975A82978F11A00BA99FE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC975A72978F11A00BA99FE /* Home.swift */; };
+		2FF8DBF429F041C500239E1A /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 2FF8DBF329F041C500239E1A /* OpenAI */; };
+		2FF8DBF729F041F200239E1A /* CardinalKitFHIR in Frameworks */ = {isa = PBXBuildFile; productRef = 2FF8DBF629F041F200239E1A /* CardinalKitFHIR */; };
+		2FF8DBFA29F0421E00239E1A /* CardinalKitHealthKitToFHIRAdapter in Frameworks */ = {isa = PBXBuildFile; productRef = 2FF8DBF929F0421E00239E1A /* CardinalKitHealthKitToFHIRAdapter */; };
+		585548B029FA652F00692853 /* api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585548AF29FA652F00692853 /* api.swift */; };
+		585548B529FA67E500692853 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585548B429FA67E500692853 /* Message.swift */; };
+		585548BA29FBA47D00692853 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 585548B929FBA47D00692853 /* FirebaseAuth */; };
+		585548BC29FBA9A000692853 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585548BB29FBA9A000692853 /* MyData.swift */; };
+		585548C129FBE22200692853 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585548C029FBE22200692853 /* User.swift */; };
+		585548C329FBE78900692853 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585548C229FBE78900692853 /* SignIn.swift */; };
+		585548C529FBF04400692853 /* FirebaseAuthFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585548C429FBF04400692853 /* FirebaseAuthFunctions.swift */; };
+		585548C829FCEE7800692853 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585548C729FCEE7800692853 /* Settings.swift */; };
+		585548DF2A00CF1800692853 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 585548DE2A00CF1800692853 /* RevenueCat */; };
+		585548E32A00D22000692853 /* RevenueCatInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585548E22A00D22000692853 /* RevenueCatInit.swift */; };
+		585548E52A0137F900692853 /* AssistantReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585548E42A0137F900692853 /* AssistantReponse.swift */; };
+		585548E72A02414C00692853 /* GoPremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585548E62A02414C00692853 /* GoPremiumView.swift */; };
+		585548E92A05242C00692853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585548E82A05242C00692853 /* Assets.xcassets */; };
+		585548EA2A05253100692853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585548E82A05242C00692853 /* Assets.xcassets */; };
+		589716B529F91D1B002B4617 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589716B429F91D1B002B4617 /* Gender.swift */; };
+		589716B729F91D21002B4617 /* Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589716B629F91D21002B4617 /* Weight.swift */; };
+		5899597C2A0A4FED0095FBD2 /* TypingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5899597B2A0A4FED0095FBD2 /* TypingIndicator.swift */; };
+		589959822A0B814C0095FBD2 /* TemplateAppDelegateRCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589959812A0B814C0095FBD2 /* TemplateAppDelegateRCExtension.swift */; };
+		58C2372E29F7CC5E001EF501 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C2372D29F7CC5E001EF501 /* Name.swift */; };
+		58C2373029F7D5E4001EF501 /* Age.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C2372F29F7D5E4001EF501 /* Age.swift */; };
+		58C2373229F7D9B6001EF501 /* Height.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C2373129F7D9B6001EF501 /* Height.swift */; };
+		58D0354E29F9736E00356895 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58D0354D29F9736E00356895 /* GoogleService-Info.plist */; };
+		58D0354F29F9736E00356895 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58D0354D29F9736E00356895 /* GoogleService-Info.plist */; };
+		653A2551283387FE005D4D48 /* TemplateApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A2550283387FE005D4D48 /* TemplateApplication.swift */; };
+		E21D86A029EDB17500490C26 /* HealthDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D869F29EDB17500490C26 /* HealthDataFetcher.swift */; };
+		E21D86A429EDB21B00490C26 /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D86A329EDB21B00490C26 /* MessageInputView.swift */; };
+		E22B62EF29E8CE1E008F3484 /* MauriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22B62EE29E8CE1E008F3484 /* MauriceView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F4E21DB29F0518B0067EE98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 653A2545283387FE005D4D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 653A254C283387FE005D4D48;
+			remoteInfo = HealthGPT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2719BC7729F0A31500995C31 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2719BC7929F0A57D00995C31 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		2719BC7B29F0A59800995C31 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		2719BC7F29F0A5DD00995C31 /* UIApplication+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Keyboard.swift"; sourceTree = "<group>"; };
+		275DEFCD29EEC5AD0079D453 /* StorageKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageKeys.swift; sourceTree = "<group>"; };
+		275DEFCF29EEC5D20079D453 /* FeatureFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureFlags.swift; sourceTree = "<group>"; };
+		275DEFD429EEC6870079D453 /* HealthKitPermissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitPermissions.swift; sourceTree = "<group>"; };
+		275DEFD629EEC6A60079D453 /* Disclaimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disclaimer.swift; sourceTree = "<group>"; };
+		275DEFD829EEC6B80079D453 /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
+		275DEFDA29EEC6CA0079D453 /* String+ModuleLocalized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ModuleLocalized.swift"; sourceTree = "<group>"; };
+		275DEFDC29EEC6DC0079D453 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		275DEFF129EECA030079D453 /* Binding+Negate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Negate.swift"; sourceTree = "<group>"; };
+		275DEFF329EECA170079D453 /* CodableArray+RawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CodableArray+RawRepresentable.swift"; sourceTree = "<group>"; };
+		27BA6BE329EF9A910079DC17 /* OpenAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenAI-Info.plist"; sourceTree = "<group>"; };
+		2F4E21D529F0518B0067EE98 /* MauriceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MauriceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4E21D729F0518B0067EE98 /* MauriceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MauriceUITests.swift; sourceTree = "<group>"; };
+		2F4E23822989D51F0013F3D9 /* TemplateAppTestingSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateAppTestingSetup.swift; sourceTree = "<group>"; };
+		2F5E32BC297E05EA003432F8 /* TemplateAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateAppDelegate.swift; sourceTree = "<group>"; };
+		2FAEC07F297F583900C11C42 /* Maurice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Maurice.entitlements; sourceTree = "<group>"; };
+		2FC9759E2978E39600BA99FE /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		2FC975A72978F11A00BA99FE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		585548AF29FA652F00692853 /* api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api.swift; sourceTree = "<group>"; };
+		585548B429FA67E500692853 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		585548BB29FBA9A000692853 /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		585548C029FBE22200692853 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		585548C229FBE78900692853 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		585548C429FBF04400692853 /* FirebaseAuthFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthFunctions.swift; sourceTree = "<group>"; };
+		585548C729FCEE7800692853 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		585548E22A00D22000692853 /* RevenueCatInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevenueCatInit.swift; sourceTree = "<group>"; };
+		585548E42A0137F900692853 /* AssistantReponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantReponse.swift; sourceTree = "<group>"; };
+		585548E62A02414C00692853 /* GoPremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoPremiumView.swift; sourceTree = "<group>"; };
+		585548E82A05242C00692853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		589716B429F91D1B002B4617 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		589716B629F91D21002B4617 /* Weight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
+		5899597B2A0A4FED0095FBD2 /* TypingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingIndicator.swift; sourceTree = "<group>"; };
+		589959812A0B814C0095FBD2 /* TemplateAppDelegateRCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateAppDelegateRCExtension.swift; sourceTree = "<group>"; };
+		58C2372D29F7CC5E001EF501 /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		58C2372F29F7D5E4001EF501 /* Age.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age.swift; sourceTree = "<group>"; };
+		58C2373129F7D9B6001EF501 /* Height.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Height.swift; sourceTree = "<group>"; };
+		58D0354D29F9736E00356895 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		653A254D283387FE005D4D48 /* Maurice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maurice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		653A2550283387FE005D4D48 /* TemplateApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateApplication.swift; sourceTree = "<group>"; };
+		653A258928339462005D4D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21D869F29EDB17500490C26 /* HealthDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataFetcher.swift; sourceTree = "<group>"; };
+		E21D86A329EDB21B00490C26 /* MessageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
+		E22B62EE29E8CE1E008F3484 /* MauriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MauriceView.swift; sourceTree = "<group>"; };
+		E26542A229E8D70100094BAD /* OpenAI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = OpenAI; path = "/Users/varunshenoy/Library/Developer/Xcode/DerivedData/TemplateApplication-fhjipkzkgfsoxiezldfjbwynfudi/SourcePackages/checkouts/OpenAI"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F4E21D229F0518B0067EE98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27715ECD29F27FF500254A7D /* XCTestApp in Frameworks */,
+				27715ED529F2802500254A7D /* XCTHealthKit in Frameworks */,
+				27715ED229F2801000254A7D /* XCTRuntimeAssertions in Frameworks */,
+				27715ECF29F27FF500254A7D /* XCTestExtensions in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653A254A283387FE005D4D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2737200C29EEBE4300024843 /* CardinalKitHealthKit in Frameworks */,
+				2737201529EEC16400024843 /* CardinalKitOnboarding in Frameworks */,
+				585548DF2A00CF1800692853 /* RevenueCat in Frameworks */,
+				2719BC8929F1548900995C31 /* CardinalKitSecureStorage in Frameworks */,
+				2719BC8729F1548900995C31 /* CardinalKitLocalStorage in Frameworks */,
+				585548BA29FBA47D00692853 /* FirebaseAuth in Frameworks */,
+				2FF8DBF429F041C500239E1A /* OpenAI in Frameworks */,
+				2FF8DBF729F041F200239E1A /* CardinalKitFHIR in Frameworks */,
+				2FF8DBFA29F0421E00239E1A /* CardinalKitHealthKitToFHIRAdapter in Frameworks */,
+				2F49B7762980407C00BCB272 /* CardinalKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		275DEFCC29EEC58A0079D453 /* SharedContext */ = {
+			isa = PBXGroup;
+			children = (
+				275DEFCD29EEC5AD0079D453 /* StorageKeys.swift */,
+				275DEFCF29EEC5D20079D453 /* FeatureFlags.swift */,
+			);
+			path = SharedContext;
+			sourceTree = "<group>";
+		};
+		275DEFD129EEC6620079D453 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				275DEFD429EEC6870079D453 /* HealthKitPermissions.swift */,
+				275DEFD629EEC6A60079D453 /* Disclaimer.swift */,
+				275DEFD829EEC6B80079D453 /* OnboardingFlow.swift */,
+				275DEFDA29EEC6CA0079D453 /* String+ModuleLocalized.swift */,
+				275DEFDC29EEC6DC0079D453 /* Welcome.swift */,
+				58C2372D29F7CC5E001EF501 /* Name.swift */,
+				58C2372F29F7D5E4001EF501 /* Age.swift */,
+				58C2373129F7D9B6001EF501 /* Height.swift */,
+				589716B429F91D1B002B4617 /* Gender.swift */,
+				589716B629F91D21002B4617 /* Weight.swift */,
+				585548C229FBE78900692853 /* SignIn.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		275DEFEE29EEC9E30079D453 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				275DEFF129EECA030079D453 /* Binding+Negate.swift */,
+				275DEFF329EECA170079D453 /* CodableArray+RawRepresentable.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2F4E21D629F0518B0067EE98 /* MauriceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F4E21D729F0518B0067EE98 /* MauriceUITests.swift */,
+			);
+			path = MauriceUITests;
+			sourceTree = "<group>";
+		};
+		2FC9759D2978E30800BA99FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FAEC07F297F583900C11C42 /* Maurice.entitlements */,
+				653A258928339462005D4D48 /* Info.plist */,
+				2FC9759E2978E39600BA99FE /* Localizable.strings */,
+				27BA6BE329EF9A910079DC17 /* OpenAI-Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FF8DBF129F0414E00239E1A /* Maurice */ = {
+			isa = PBXGroup;
+			children = (
+				585548B129FA677B00692853 /* Utils */,
+				585548AE29FA652500692853 /* API */,
+				E22B62EE29E8CE1E008F3484 /* MauriceView.swift */,
+				E21D869F29EDB17500490C26 /* HealthDataFetcher.swift */,
+				E21D86A329EDB21B00490C26 /* MessageInputView.swift */,
+				2719BC7729F0A31500995C31 /* SettingsView.swift */,
+				2719BC7929F0A57D00995C31 /* ChatView.swift */,
+				2719BC7B29F0A59800995C31 /* MessageView.swift */,
+				2719BC7F29F0A5DD00995C31 /* UIApplication+Keyboard.swift */,
+				585548BB29FBA9A000692853 /* MyData.swift */,
+				585548C729FCEE7800692853 /* Settings.swift */,
+				585548E62A02414C00692853 /* GoPremiumView.swift */,
+				5899597B2A0A4FED0095FBD2 /* TypingIndicator.swift */,
+			);
+			path = Maurice;
+			sourceTree = "<group>";
+		};
+		585548AE29FA652500692853 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				585548AF29FA652F00692853 /* api.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		585548B129FA677B00692853 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				585548B429FA67E500692853 /* Message.swift */,
+				585548C029FBE22200692853 /* User.swift */,
+				585548C429FBF04400692853 /* FirebaseAuthFunctions.swift */,
+				585548E42A0137F900692853 /* AssistantReponse.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		653A2544283387FE005D4D48 = {
+			isa = PBXGroup;
+			children = (
+				585548E82A05242C00692853 /* Assets.xcassets */,
+				653A254F283387FE005D4D48 /* Maurice */,
+				2F4E21D629F0518B0067EE98 /* MauriceUITests */,
+				653A254E283387FE005D4D48 /* Products */,
+				653A258B283395A7005D4D48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		653A254E283387FE005D4D48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				653A254D283387FE005D4D48 /* Maurice.app */,
+				2F4E21D529F0518B0067EE98 /* MauriceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		653A254F283387FE005D4D48 /* Maurice */ = {
+			isa = PBXGroup;
+			children = (
+				58D0354D29F9736E00356895 /* GoogleService-Info.plist */,
+				653A2550283387FE005D4D48 /* TemplateApplication.swift */,
+				2F5E32BC297E05EA003432F8 /* TemplateAppDelegate.swift */,
+				589959812A0B814C0095FBD2 /* TemplateAppDelegateRCExtension.swift */,
+				2F4E23822989D51F0013F3D9 /* TemplateAppTestingSetup.swift */,
+				585548E22A00D22000692853 /* RevenueCatInit.swift */,
+				2FC975A72978F11A00BA99FE /* Home.swift */,
+				2FF8DBF129F0414E00239E1A /* Maurice */,
+				275DEFEE29EEC9E30079D453 /* Helper */,
+				275DEFD129EEC6620079D453 /* Onboarding */,
+				275DEFCC29EEC58A0079D453 /* SharedContext */,
+				2FC9759D2978E30800BA99FE /* Supporting Files */,
+			);
+			path = Maurice;
+			sourceTree = "<group>";
+		};
+		653A258B283395A7005D4D48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E26542A229E8D70100094BAD /* OpenAI */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F4E21D429F0518B0067EE98 /* MauriceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F4E21E029F0518B0067EE98 /* Build configuration list for PBXNativeTarget "MauriceUITests" */;
+			buildPhases = (
+				2F4E21D129F0518B0067EE98 /* Sources */,
+				2F4E21D229F0518B0067EE98 /* Frameworks */,
+				2F4E21D329F0518B0067EE98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F4E21DC29F0518B0067EE98 /* PBXTargetDependency */,
+			);
+			name = MauriceUITests;
+			packageProductDependencies = (
+				27715ECC29F27FF500254A7D /* XCTestApp */,
+				27715ECE29F27FF500254A7D /* XCTestExtensions */,
+				27715ED129F2801000254A7D /* XCTRuntimeAssertions */,
+				27715ED429F2802500254A7D /* XCTHealthKit */,
+			);
+			productName = HealthGPTUITests;
+			productReference = 2F4E21D529F0518B0067EE98 /* MauriceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		653A254C283387FE005D4D48 /* Maurice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653A257128338800005D4D48 /* Build configuration list for PBXNativeTarget "Maurice" */;
+			buildPhases = (
+				653A2549283387FE005D4D48 /* Sources */,
+				653A254A283387FE005D4D48 /* Frameworks */,
+				653A254B283387FE005D4D48 /* Resources */,
+				2F5B528D29BD237B002020B7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Maurice;
+			packageProductDependencies = (
+				2F49B7752980407B00BCB272 /* CardinalKit */,
+				2737200B29EEBE4300024843 /* CardinalKitHealthKit */,
+				2737201429EEC16400024843 /* CardinalKitOnboarding */,
+				2FF8DBF329F041C500239E1A /* OpenAI */,
+				2FF8DBF629F041F200239E1A /* CardinalKitFHIR */,
+				2FF8DBF929F0421E00239E1A /* CardinalKitHealthKitToFHIRAdapter */,
+				2719BC8629F1548900995C31 /* CardinalKitLocalStorage */,
+				2719BC8829F1548900995C31 /* CardinalKitSecureStorage */,
+				585548B929FBA47D00692853 /* FirebaseAuth */,
+				585548DE2A00CF1800692853 /* RevenueCat */,
+			);
+			productName = TemplateApplication;
+			productReference = 653A254D283387FE005D4D48 /* Maurice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		653A2545283387FE005D4D48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2F4E21D429F0518B0067EE98 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 653A254C283387FE005D4D48;
+					};
+					653A254C283387FE005D4D48 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 653A2548283387FE005D4D48 /* Build configuration list for PBXProject "Maurice" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 653A2544283387FE005D4D48;
+			packageReferences = (
+				2F49B7742980407B00BCB272 /* XCRemoteSwiftPackageReference "CardinalKit" */,
+				2737200A29EEBE4300024843 /* XCRemoteSwiftPackageReference "CardinalKitHealthKit" */,
+				2737201329EEC16400024843 /* XCRemoteSwiftPackageReference "CardinalKitOnboarding" */,
+				2FF8DBF229F041C500239E1A /* XCRemoteSwiftPackageReference "OpenAI" */,
+				2FF8DBF529F041F200239E1A /* XCRemoteSwiftPackageReference "CardinalKitFHIR" */,
+				2FF8DBF829F0421E00239E1A /* XCRemoteSwiftPackageReference "CardinalKitHealthKitToFHIRAdapter" */,
+				2719BC8529F1548800995C31 /* XCRemoteSwiftPackageReference "CardinalKitStorage" */,
+				27715ECB29F27FF500254A7D /* XCRemoteSwiftPackageReference "XCTestExtensions" */,
+				27715ED029F2801000254A7D /* XCRemoteSwiftPackageReference "XCTRuntimeAssertions" */,
+				27715ED329F2802500254A7D /* XCRemoteSwiftPackageReference "XCTHealthKit" */,
+				585548B829FBA47D00692853 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				585548DD2A00CF1800692853 /* XCRemoteSwiftPackageReference "purchases-ios" */,
+			);
+			productRefGroup = 653A254E283387FE005D4D48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				653A254C283387FE005D4D48 /* Maurice */,
+				2F4E21D429F0518B0067EE98 /* MauriceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F4E21D329F0518B0067EE98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585548EA2A05253100692853 /* Assets.xcassets in Resources */,
+				58D0354F29F9736E00356895 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653A254B283387FE005D4D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D0354E29F9736E00356895 /* GoogleService-Info.plist in Resources */,
+				2FC9759F2978E39600BA99FE /* Localizable.strings in Resources */,
+				27BA6BE429EF9A910079DC17 /* OpenAI-Info.plist in Resources */,
+				585548E92A05242C00692853 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F5B528D29BD237B002020B7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# if [ \"${CONFIGURATION}\" = \"Debug\" ]; then\n#  export PATH=\"$PATH:/opt/homebrew/bin\"\n#  if which swiftlint > /dev/null; then\n#    swiftlint\n#  else\n#   echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n#  fi\n# fi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F4E21D129F0518B0067EE98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4E21D829F0518B0067EE98 /* MauriceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653A2549283387FE005D4D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5899597C2A0A4FED0095FBD2 /* TypingIndicator.swift in Sources */,
+				58C2373229F7D9B6001EF501 /* Height.swift in Sources */,
+				585548E52A0137F900692853 /* AssistantReponse.swift in Sources */,
+				275DEFD929EEC6B80079D453 /* OnboardingFlow.swift in Sources */,
+				585548C529FBF04400692853 /* FirebaseAuthFunctions.swift in Sources */,
+				275DEFDD29EEC6DC0079D453 /* Welcome.swift in Sources */,
+				275DEFD729EEC6A60079D453 /* Disclaimer.swift in Sources */,
+				585548B529FA67E500692853 /* Message.swift in Sources */,
+				2FC975A82978F11A00BA99FE /* Home.swift in Sources */,
+				2719BC7A29F0A57D00995C31 /* ChatView.swift in Sources */,
+				589716B529F91D1B002B4617 /* Gender.swift in Sources */,
+				585548C829FCEE7800692853 /* Settings.swift in Sources */,
+				275DEFF429EECA180079D453 /* CodableArray+RawRepresentable.swift in Sources */,
+				58C2372E29F7CC5E001EF501 /* Name.swift in Sources */,
+				2719BC7829F0A31500995C31 /* SettingsView.swift in Sources */,
+				E21D86A429EDB21B00490C26 /* MessageInputView.swift in Sources */,
+				2F4E23832989D51F0013F3D9 /* TemplateAppTestingSetup.swift in Sources */,
+				275DEFD029EEC5D20079D453 /* FeatureFlags.swift in Sources */,
+				275DEFF229EECA030079D453 /* Binding+Negate.swift in Sources */,
+				2719BC7C29F0A59800995C31 /* MessageView.swift in Sources */,
+				2F5E32BD297E05EA003432F8 /* TemplateAppDelegate.swift in Sources */,
+				589959822A0B814C0095FBD2 /* TemplateAppDelegateRCExtension.swift in Sources */,
+				585548C129FBE22200692853 /* User.swift in Sources */,
+				275DEFD529EEC6870079D453 /* HealthKitPermissions.swift in Sources */,
+				275DEFDB29EEC6CA0079D453 /* String+ModuleLocalized.swift in Sources */,
+				585548BC29FBA9A000692853 /* MyData.swift in Sources */,
+				585548C329FBE78900692853 /* SignIn.swift in Sources */,
+				585548E32A00D22000692853 /* RevenueCatInit.swift in Sources */,
+				589716B729F91D21002B4617 /* Weight.swift in Sources */,
+				2719BC8029F0A5DD00995C31 /* UIApplication+Keyboard.swift in Sources */,
+				58C2373029F7D5E4001EF501 /* Age.swift in Sources */,
+				585548B029FA652F00692853 /* api.swift in Sources */,
+				E22B62EF29E8CE1E008F3484 /* MauriceView.swift in Sources */,
+				275DEFCE29EEC5AD0079D453 /* StorageKeys.swift in Sources */,
+				585548E72A02414C00692853 /* GoPremiumView.swift in Sources */,
+				653A2551283387FE005D4D48 /* TemplateApplication.swift in Sources */,
+				E21D86A029EDB17500490C26 /* HealthDataFetcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F4E21DC29F0518B0067EE98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 653A254C283387FE005D4D48 /* Maurice */;
+			targetProxy = 2F4E21DB29F0518B0067EE98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F4E21DD29F0518B0067EE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4SUDJDT48;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinandries.maurice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Maurice;
+			};
+			name = Debug;
+		};
+		2F4E21DE29F0518B0067EE98 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4SUDJDT48;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinandries.maurice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Maurice;
+			};
+			name = Test;
+		};
+		2F4E21DF29F0518B0067EE98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4SUDJDT48;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinandries.maurice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Maurice;
+			};
+			name = Release;
+		};
+		2FEE10302998C89C000822E1 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = TEST;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Test;
+		};
+		2FEE10312998C89C000822E1 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Maurice/Supporting Files/Maurice.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = U4SUDJDT48;
+				ENABLE_PREVIEWS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Maurice/Supporting Files/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This message should never appear. Please adjust this when you start using camera information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "The CardinalKit Template Application uses the step count to demonstrate CardinalKit's integration with HealthKit.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The CardinalKit Template Application uses the step count to demonstrate CardinalKit's integration with HealthKit.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This message should never appear. Please adjust this when you start using location information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This message should never appear. Please adjust this when you start using location information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This message should never appear. Please adjust this when you start using microphone information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This message should never appear. Please adjust this when you start using motion information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This message should never appear. Please adjust this when you start using speecg information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UITemplateApplicationlicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UITemplateApplicationlicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinandries.maurice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				"SWIFT_ELicenseRef-TemplateApplication_LOC_STRINGS" = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Test;
+		};
+		653A256F28338800005D4D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		653A257028338800005D4D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		653A257228338800005D4D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Maurice/Supporting Files/Maurice.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = U4SUDJDT48;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Maurice/Supporting Files/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This message should never appear. Please adjust this when you start using camera information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "The CardinalKit Template Application uses the step count to demonstrate CardinalKit's integration with HealthKit.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The CardinalKit Template Application uses the step count to demonstrate CardinalKit's integration with HealthKit.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This message should never appear. Please adjust this when you start using location information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This message should never appear. Please adjust this when you start using location information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This message should never appear. Please adjust this when you start using microphone information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This message should never appear. Please adjust this when you start using motion information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This message should never appear. Please adjust this when you start using speecg information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UITemplateApplicationlicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UITemplateApplicationlicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinandries.maurice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				"SWIFT_ELicenseRef-TemplateApplication_LOC_STRINGS" = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		653A257328338800005D4D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Maurice/Supporting Files/Maurice.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = U4SUDJDT48;
+				ENABLE_PREVIEWS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Maurice/Supporting Files/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This message should never appear. Please adjust this when you start using camera information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "The CardinalKit Template Application uses the step count to demonstrate CardinalKit's integration with HealthKit.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The CardinalKit Template Application uses the step count to demonstrate CardinalKit's integration with HealthKit.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This message should never appear. Please adjust this when you start using location information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This message should never appear. Please adjust this when you start using location information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This message should never appear. Please adjust this when you start using microphone information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This message should never appear. Please adjust this when you start using motion information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This message should never appear. Please adjust this when you start using speecg information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UITemplateApplicationlicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UITemplateApplicationlicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinandries.maurice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				"SWIFT_ELicenseRef-TemplateApplication_LOC_STRINGS" = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F4E21E029F0518B0067EE98 /* Build configuration list for PBXNativeTarget "MauriceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4E21DD29F0518B0067EE98 /* Debug */,
+				2F4E21DE29F0518B0067EE98 /* Test */,
+				2F4E21DF29F0518B0067EE98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653A2548283387FE005D4D48 /* Build configuration list for PBXProject "Maurice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653A256F28338800005D4D48 /* Debug */,
+				2FEE10302998C89C000822E1 /* Test */,
+				653A257028338800005D4D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653A257128338800005D4D48 /* Build configuration list for PBXNativeTarget "Maurice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653A257228338800005D4D48 /* Debug */,
+				2FEE10312998C89C000822E1 /* Test */,
+				653A257328338800005D4D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2719BC8529F1548800995C31 /* XCRemoteSwiftPackageReference "CardinalKitStorage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordBDHG/CardinalKitStorage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.2;
+			};
+		};
+		2737200A29EEBE4300024843 /* XCRemoteSwiftPackageReference "CardinalKitHealthKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordBDHG/CardinalKitHealthKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+		2737201329EEC16400024843 /* XCRemoteSwiftPackageReference "CardinalKitOnboarding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordBDHG/CardinalKitOnboarding.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+		27715ECB29F27FF500254A7D /* XCRemoteSwiftPackageReference "XCTestExtensions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordBDHG/XCTestExtensions.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+		27715ED029F2801000254A7D /* XCRemoteSwiftPackageReference "XCTRuntimeAssertions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordBDHG/XCTRuntimeAssertions.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+		27715ED329F2802500254A7D /* XCRemoteSwiftPackageReference "XCTHealthKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordBDHG/XCTHealthKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.3;
+			};
+		};
+		2F49B7742980407B00BCB272 /* XCRemoteSwiftPackageReference "CardinalKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordBDHG/CardinalKit";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+		2FF8DBF229F041C500239E1A /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.1.2;
+			};
+		};
+		2FF8DBF529F041F200239E1A /* XCRemoteSwiftPackageReference "CardinalKitFHIR" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordBDHG/CardinalKitFHIR.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+		2FF8DBF829F0421E00239E1A /* XCRemoteSwiftPackageReference "CardinalKitHealthKitToFHIRAdapter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordBDHG/CardinalKitHealthKitToFHIRAdapter.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+		585548B829FBA47D00692853 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		585548DD2A00CF1800692853 /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2719BC8629F1548900995C31 /* CardinalKitLocalStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2719BC8529F1548800995C31 /* XCRemoteSwiftPackageReference "CardinalKitStorage" */;
+			productName = CardinalKitLocalStorage;
+		};
+		2719BC8829F1548900995C31 /* CardinalKitSecureStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2719BC8529F1548800995C31 /* XCRemoteSwiftPackageReference "CardinalKitStorage" */;
+			productName = CardinalKitSecureStorage;
+		};
+		2737200B29EEBE4300024843 /* CardinalKitHealthKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2737200A29EEBE4300024843 /* XCRemoteSwiftPackageReference "CardinalKitHealthKit" */;
+			productName = CardinalKitHealthKit;
+		};
+		2737201429EEC16400024843 /* CardinalKitOnboarding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2737201329EEC16400024843 /* XCRemoteSwiftPackageReference "CardinalKitOnboarding" */;
+			productName = CardinalKitOnboarding;
+		};
+		27715ECC29F27FF500254A7D /* XCTestApp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27715ECB29F27FF500254A7D /* XCRemoteSwiftPackageReference "XCTestExtensions" */;
+			productName = XCTestApp;
+		};
+		27715ECE29F27FF500254A7D /* XCTestExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27715ECB29F27FF500254A7D /* XCRemoteSwiftPackageReference "XCTestExtensions" */;
+			productName = XCTestExtensions;
+		};
+		27715ED129F2801000254A7D /* XCTRuntimeAssertions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27715ED029F2801000254A7D /* XCRemoteSwiftPackageReference "XCTRuntimeAssertions" */;
+			productName = XCTRuntimeAssertions;
+		};
+		27715ED429F2802500254A7D /* XCTHealthKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27715ED329F2802500254A7D /* XCRemoteSwiftPackageReference "XCTHealthKit" */;
+			productName = XCTHealthKit;
+		};
+		2F49B7752980407B00BCB272 /* CardinalKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F49B7742980407B00BCB272 /* XCRemoteSwiftPackageReference "CardinalKit" */;
+			productName = CardinalKit;
+		};
+		2FF8DBF329F041C500239E1A /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FF8DBF229F041C500239E1A /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+		2FF8DBF629F041F200239E1A /* CardinalKitFHIR */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FF8DBF529F041F200239E1A /* XCRemoteSwiftPackageReference "CardinalKitFHIR" */;
+			productName = CardinalKitFHIR;
+		};
+		2FF8DBF929F0421E00239E1A /* CardinalKitHealthKitToFHIRAdapter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FF8DBF829F0421E00239E1A /* XCRemoteSwiftPackageReference "CardinalKitHealthKitToFHIRAdapter" */;
+			productName = CardinalKitHealthKitToFHIRAdapter;
+		};
+		585548B929FBA47D00692853 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 585548B829FBA47D00692853 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		585548DE2A00CF1800692853 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 585548DD2A00CF1800692853 /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 653A2545283387FE005D4D48 /* Project object */;
+}
