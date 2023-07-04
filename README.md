@@ -1,5 +1,7 @@
 This app will be soon available on the AppStore for iOS.
 
+![MauriceAI Screenshot](/screenshots/6.5/App\ Store\ graphics/Hotpot\ 2.png)
+
 # MauriceAI
 
 MauriceAI is an innovative iOS application designed in Swift and specialized in providing personalized health advice. The application must be compiled on a Mac due to its Swift-based implementation.
