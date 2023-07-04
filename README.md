@@ -1,6 +1,6 @@
 This app will be soon available on the AppStore for iOS.
 
-![MauriceAI Screenshot](/screenshots/6.5/App\ Store\ graphics/Hotpot\ 2.png)
+![App Screenshot](/screenshots/6.5/App%20Store%20graphics/Hotpot%202.png)
 
 # MauriceAI
 
